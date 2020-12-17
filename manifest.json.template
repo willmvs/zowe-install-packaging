@@ -104,6 +104,9 @@
     "org.zowe.utility_tools": {
       "version": "~0.0.1-SNAPSHOT"
     },
+    "org.zowe.launcher": {
+      "version": "~0.0.2-SNAPSHOT"
+    },
     "org.zowe.licenses": {
       "version": "1.10.0"
     }

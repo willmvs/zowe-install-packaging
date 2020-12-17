@@ -19,7 +19,7 @@
 echo "<zowe-explorer-ui-install.sh>" >> $LOG_FILE
 
 umask 0002
-ui_components="explorer-ui-server explorer-jes explorer-mvs explorer-uss"
+ui_components="launcher explorer-ui-server explorer-jes explorer-mvs explorer-uss"
 for component_id in ${ui_components}; do
   cd ${INSTALL_DIR}
   component_pax=$PWD/$(ls -t ./files/${component_id}-*.pax | head -1)
