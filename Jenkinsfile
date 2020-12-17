@@ -76,7 +76,7 @@ sed -e 's#{BUILD_BRANCH}#${env.BRANCH_NAME}#g' \
   )
 
   pipeline.build(
-    timeout       : [time: 5, unit: 'MINUTES'],
+    timeout       : [time: 10, unit: 'MINUTES'],
     isSkippable   : false,
     operation     : {
       // prepareing download spec
